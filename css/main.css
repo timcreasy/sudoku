@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+
+#gameScreen {
+  display: none;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+#board {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.cell {
+  float: left;
+  width: 10.7%;
+  height: 10.7%;
+  border: 1px solid black;
+  font-size: 42px;
+}
+
+#checkButton {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#newGameButton {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#hintButton {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.gameButton {
+  margin: 10px auto;
+  font-size: 30px;
+  display: block;
+}

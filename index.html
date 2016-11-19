@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Sudoku - Leadspedia</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <h1>Sudoku</h1>
+
+    <div id="newGameScreen">
+      <h1>New Game</h1>
+      <button class="gameButton" id="easyGame">Easy</button>
+      <button class="gameButton" id="mediumGame">Intermediate</button>
+      <button class="gameButton" id="hardGame">Hard</button>
+    </div>
+    
+    <div id="gameScreen">
+      <h2>Stats:</h2>
+      <h3 id="gameClock">Game Time: 00:00</h3>
+      <h3 id="averageTime">Average move time: 0 seconds</h3>
+      <h3 id="numOfMoves">Number of moves: 0</h3>
+      <h3 id="numOfWinChecks">Number of win checks: 0</h3>
+      <div id="board"></div>
+      <button id="checkButton">Check Win</button>
+      <button id="newGameButton">New Game</button>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
